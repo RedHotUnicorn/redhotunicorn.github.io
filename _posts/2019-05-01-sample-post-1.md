@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Documentation
-image: /images/image-5.png
+title: another test
+image: /images/profile.jpg
 ---
 
 
