@@ -90,30 +90,46 @@ experience:
   order: 2
   title: Experiences
   description: |
-    The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
-
+    
   items:
-    - company: Second Company
-      link: '#'
+    - company: RSM Consult Gmbh
+      link: www.rsm-consult.de
       tags: Full-time
-      date: 2018.03 - 2019.03
-      role: Backend Developer
-      location: Beijing
+      date: 2023.03 - now
+      role: Data Expert
+      location: Neu Isenburg, Germany
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+        +	Develop data marts for reports 
+        +	Develop pilot and productive reports
+        +	Administer server with the BI platform
 
-    - company: First Company
+    - company: OOO DATATECH
       link:
-      tags: Part-time, remote
-      date: 2017.03 - 2018.03
-      role: Backend Developer
-      location: Beijing
+      tags: Full-time, remote
+      date: 2022.06 - 2023.02
+      role: Senior BI Developer
+      location: Moscow
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+        +	Develop data marts for reports 
+        +	Develop pilot and productive reports
+        +	Develop documentation, collected business requirements and expectations from customers
+        +	Do demonstrations
+        +	Administer server with the BI platform
+        
+    - company: SAS
+      link: sas.com
+      tags: Full-time
+      date: 2016.07 - 2022.04
+      role: Business Intelligence Consultant 
+      location: Moscow
+      description: |
+        +	Developed data marts for reports (SAS/ Base)
+        +	Developed pilot and productive reports (SAS Visual Analytics) 
+        +	Developed documentation, collected business requirements and expectations from the customers
+        +	Did demonstrations, workshops and technical consultations on BI (15+ internal seminars and one public)
+        +	Used Confluence. Collected BI cases on all customer projects (25+ cases)
+        +	Supervised interns. Organized sharing experience meetings
+        +	Administered server with the BI platform
 
 project:
   show: true
