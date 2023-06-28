@@ -165,32 +165,32 @@ skill:
         - Tableau
   
     - name: Programming
-        item:
-          - Python
-          - SAS
-          - SQL
-          - JavaScript
-          - Bash
+      item:
+        - Python
+        - SAS
+        - SQL
+        - JavaScript
+        - Bash
 
-      - name: Data Preparation Tools
-        item:
-          - SAS DI 
-          - SAS Enterprise Guide
-          - Airflow
+    - name: Data Preparation Tools
+      item:
+        - SAS DI 
+        - SAS Enterprise Guide
+        - Airflow
 
-      - name: DB
-        item:
-          - T-SQL (SQL Server)
-          - Oracle DB 
-          - PostgreSQL
-          - SQLite
+    - name: DB
+      item:
+        - T-SQL (SQL Server)
+        - Oracle DB 
+        - PostgreSQL
+        - SQLite
 
-      - name: Knowledge Management
-        item:
-          - Confluence
-          - Notion
-          - Obsidian
-          - Logseq
+    - name: Knowledge Management
+      item:
+        - Confluence
+        - Notion
+        - Obsidian
+        - Logseq
 
 education:
   show: true
