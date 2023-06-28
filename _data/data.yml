@@ -153,6 +153,8 @@ skill:
     
   
   items:
+    - name: 
+      level: 0
 
   groups:
     - name: Visualization
