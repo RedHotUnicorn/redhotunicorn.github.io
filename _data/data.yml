@@ -136,7 +136,7 @@ project:
   order: 3
   title: Projects
   description: |
-          My projects
+       
   items:
     - name: Personal project
       link: '#'
