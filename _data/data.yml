@@ -151,6 +151,8 @@ skill:
   title: Skills
   description: |
     
+  
+  items:
 
   groups:
     - name: Visualization
