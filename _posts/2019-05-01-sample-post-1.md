@@ -1,7 +1,6 @@
 ---
 layout: post
 title: another test
-image: /images/profile.jpg
 ---
 
 

@@ -11,7 +11,7 @@ layout: projects
             <div class="card rounded overflow-hidden">  
               <div class="image">
                 {% if post.image %}
-                    {% if post.image == ""  %}
+                    {% if post.image == "" or page.some_variable == nil %}
                       <img src="/images/default.png" alt="{{post.title}}">
                     {% else %}
                       <img src="{{post.image | relative_url}}" alt="{{post.title}}"> 
