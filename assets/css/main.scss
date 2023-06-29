@@ -32,12 +32,32 @@ $theme-color:       {{ site.theme_color | default: "#1DA1F2" }};
 // Default delimiter
 $contact-delimiter: "{{ site.contact_delimiter | default: "·" }}";
 
+
+$content-width: 800px;
+
+$on-palm: 600px;
+$on-laptop: 800px;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+
+
 @import
   "sanitize",
   "base",
   "responsive",
-  "print",
-  "layout"
+  "print"
 ;
 
 {% if site.text_direction == "rtl" %}
