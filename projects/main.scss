@@ -40,6 +40,10 @@ $on-laptop: 800px;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "layout"
+@import "sanitize",
+"base",
+"responsive",
+"print",
+"layout"
 // , "custom", "syntax-highlighting"
 ;
