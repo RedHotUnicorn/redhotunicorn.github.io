@@ -67,22 +67,11 @@
 
         .groups {
           .items {
-            flex-direction: column;
+            flex-direction: row;
             margin: auto;
             width: fit-content;
           }
-          
-          .group {
-            flex-direction: column;
 
-            &:not(:last-child) {
-              border-bottom: none;
-            }
-
-            .group-item {
-              justify-content: start;
-            }
-          }
         }
       }
     }
