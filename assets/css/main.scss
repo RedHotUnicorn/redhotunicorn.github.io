@@ -33,6 +33,17 @@ $theme-color:       {{ site.theme_color | default: "#1DA1F2" }};
 $contact-delimiter: "{{ site.contact_delimiter | default: "·" }}";
 
 
+
+$spacing-unit: 30px;
+
+$text-color: #111;
+$background-color: #fdfdfd;
+$brand-color: #2a7ae2;
+
+$grey-color: #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark: darken($grey-color, 25%);
+
 $content-width: 800px;
 
 $on-palm: 600px;
