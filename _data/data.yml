@@ -176,7 +176,7 @@ skill:
         - name: Tableau
           level: 1
   
-    - name: Programming
+    - name: Languages
       items:
         - name: Python
           level: 0
@@ -189,18 +189,18 @@ skill:
         - name: Bash
           level: 0
 
-    - name: Data Preparation Tools
+    - name: Data Preparation
       items:
         - name: SAS DI 
           level: 0
-        - name: SAS Enterprise Guide
+        - name: SAS EG
           level: 0
         - name: Airflow
           level: 0
 
-    - name: DB
+    - name: Databases
       items:
-        - name: T-SQL (SQL Server)
+        - name: SQL Server
           level: 0
         - name: Oracle DB 
           level: 0
