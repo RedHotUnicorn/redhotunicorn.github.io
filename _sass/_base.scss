@@ -263,11 +263,12 @@ small {
 
       .groups {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
 
-        .group {
+        .items {
           display: flex;
           justify-content: space-between;
+          flex-direction: column;
 
           &:not(:last-child) {
             border-bottom: 1px dashed rgba($text-third-color, 0.25);
