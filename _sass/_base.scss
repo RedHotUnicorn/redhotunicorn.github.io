@@ -278,8 +278,8 @@ small {
             flex-basis: 20%;
 
             .items {
-              flex-direction: column;
-              flex-wrap: nowrap;
+              flex-direction: column !important;
+              flex-wrap: nowrap !important;
             }
 
 
