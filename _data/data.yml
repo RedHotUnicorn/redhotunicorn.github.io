@@ -167,58 +167,58 @@ skill:
   groups:
     - name: Visualization
       items:
-        - name: SAS VA
+        - name: SAS Visual Analytics
           level: 5
-        - name: Superset
+        - name: Apache Superset
           level: 3
-        - name: Power BI
+        - name: Microsoft Power BI
           level: 2
         - name: Tableau
           level: 1
   
     - name: Languages
       items:
-        - name: Python
-          level: 0
-        - name: SAS
-          level: 0
         - name: SQL
-          level: 0
+          level: 4.5
+        - name: Python
+          level: 3
+        - name: SAS
+          level: 5
         - name: JS
-          level: 0
+          level: 2
         - name: Bash
-          level: 0
+          level: 2
 
     - name: Data Preparation
       items:
-        - name: SAS DI 
-          level: 0
-        - name: SAS EG
-          level: 0
-        - name: Airflow
-          level: 0
+        - name: SAS Data Integration 
+          level: 4
+        - name: SAS Enterprise Guide
+          level: 5
+        - name: Apache Airflow
+          level: 2
 
     - name: Databases
       items:
-        - name: SQL Server
-          level: 0
+        - name: Microsoft SQL Server
+          level: 4
         - name: Oracle DB 
-          level: 0
+          level: 3
         - name: PostgreSQL
-          level: 0
+          level: 4
         - name: SQLite
-          level: 0
+          level: 5
 
     - name: Knowledge Management
       items:
         - name: Confluence
-          level: 0
+          level: 5
         - name: Notion
-          level: 0
+          level: 5
         - name: Obsidian
-          level: 0
+          level: 5
         - name: Logseq
-          level: 0
+          level: 5
 
 education:
   show: true
