@@ -277,11 +277,6 @@ small {
             font-weight: $base-font-weight * 1.50;
             flex-basis: 20%;
 
-            .items {
-              flex-direction: column !important;
-              flex-wrap: nowrap !important;
-            }
-
 
           }
 
@@ -297,6 +292,13 @@ small {
               margin: 0 0.5em;
             }
           }
+
+          .items {
+            flex-direction: column !important;
+            flex-wrap: nowrap !important;
+          }
+
+          
         }
       }
     }
