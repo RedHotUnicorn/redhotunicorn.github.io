@@ -17,13 +17,16 @@
     {%- if skill.groups %}
     <div class="groups">
       {%- for group in skill.groups %}
-          <div class="gp-items">
-            <div class="group-name">
-              <span>{{ group.name }}</span>
-            </div>
+      <div class="group">
+        <div class="group-name">
+          <span>{{ group.name }}</span>
+        </div>
+
+
+          {%- if group.items %}
+          <div class="items">
             {%- for item in group.items %}
-            <div class="group-item">
-              <div class="item"> 
+            <div class="item">
               <div class="skill-name">
                 <span>{{ item.name }}</span>
               </div>
@@ -37,15 +40,16 @@
                 {%- endfor %}
               </div>
             </div>
-            </div>
             {%- endfor %}
           </div>
-      {%- endfor %}
-    </div>
-    {%- endif %}
+          {%- endif %}
 
 
 
+        </div>
+        {%- endfor %}
+      </div>
+      {%- endif %}
   </div>
 </section>
 {%- endif %}

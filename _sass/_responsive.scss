@@ -59,16 +59,24 @@
 
     .skill {
       .section-content {
+        .items {
+          flex-direction: column;
+          margin: auto;
+          width: fit-content;
+        }
 
         .groups {
-          flex-direction: row;
+          .group {
+            flex-direction: column;
 
-          // .items {
-          //   flex-direction: column ;
-          //   margin: auto;
-          //   width: fit-content;
-          // }
-          
+            &:not(:last-child) {
+              border-bottom: none;
+            }
+
+            .group-item {
+              justify-content: start;
+            }
+          }
         }
       }
     }
