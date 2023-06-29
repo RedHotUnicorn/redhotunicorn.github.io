@@ -234,32 +234,7 @@ small {
 
   .skill {
     .section-content {
-      .items {
-        display: flex;
-        flex-wrap: wrap;
-
-        .item {
-          display: inline-flex;
-          align-items: center;
-          justify-content: end;
-          flex-basis: 30%;
-
-          .skill-name::after {
-            content: "\00a0\00a0";
-            font-family: initial;
-          }
-
-          .skill-level {
-            display: inline-flex;
-            color: $text-third-color;
-
-            i:not(:last-child)::after {
-              content: "\00a0";
-              font-family: initial;
-            }
-          }
-        }
-      }
+      
 
       .groups {
         display: flex;
