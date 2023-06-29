@@ -61,10 +61,10 @@
       .section-content {
 
         .groups {
-          flex-direction: row;
+          flex-direction: column;
 
           .items {
-            flex-direction: column;
+            flex-direction: row ;
             margin: auto;
             width: fit-content;
           }
