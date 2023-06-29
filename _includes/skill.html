@@ -38,6 +38,9 @@
     <div class="groups">
       {%- for group in skill.groups %}
           <div class="items">
+            <div class="group-name">
+              <span>{{ group.name }}</span>
+            </div>
             {%- for item in group.items %}
             <div class="item">
               <div class="skill-name">
