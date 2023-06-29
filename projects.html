@@ -1,12 +1,13 @@
 ---
 layout: default
 ---
+{%- assign data = site.data.data %}
 
 <div class="home py-4 py-md-5">
     <div class="row">
       {% for post in paginator.posts %}   
         <div class="col-12 col-md-6 col-lg-4">
-         <a href="{{ post.url | prepend: site.baseurl }}" class="index-anchor">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="index-anchor">
           <div class="card rounded overflow-hidden">  
             <div class="image">
               {% if post.image %}
@@ -23,9 +24,9 @@ layout: default
         </div>
       {% endfor %}
     </div>
-  </div> 
+</div> 
   
-  {% if paginator.total_pages > 1 %}
+  <!-- {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
@@ -49,4 +50,4 @@ layout: default
       <span>Next &raquo;</span>
     {% endif %}
   </div>
-  {% endif %}
+  {% endif %} -->
