@@ -173,6 +173,8 @@ skill:
           level: 3
         - name: Microsoft Power BI
           level: 2
+        - name: Metabase
+          level: 2
         - name: Tableau
           level: 1
         - name: IBM Cognos Analytics
@@ -218,7 +220,6 @@ skill:
         - name: Oracle DB
           level: 2
 
-
           
     - name: Knowledge Management
       items:
@@ -235,7 +236,11 @@ skill:
       items:
         - name: Git
           level: 3
+        - name: OpenMetadata
+          level: 3
         - name: Ansible
+          level: 1
+        - name: Docker
           level: 1
 
 education:
