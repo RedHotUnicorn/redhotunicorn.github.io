@@ -167,14 +167,14 @@ skill:
   groups:
     - name: Visualization
       items:
-        - name: SAS Visual Analytics
-          level: 0
-        - name: Apache Superset
-          level: 0
-        - name: Microsoft Power BI
-          level: 0
+        - name: SAS VA
+          level: 5
+        - name: Superset
+          level: 3
+        - name: Power BI
+          level: 2
         - name: Tableau
-          level: 0
+          level: 1
   
     - name: Programming
       items:
