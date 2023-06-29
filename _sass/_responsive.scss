@@ -66,6 +66,12 @@
         }
 
         .groups {
+          .items {
+            flex-direction: column;
+            margin: auto;
+            width: fit-content;
+          }
+          
           .group {
             flex-direction: column;
 
