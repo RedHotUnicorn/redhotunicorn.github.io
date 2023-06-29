@@ -163,45 +163,62 @@ skill:
   description: |
     test
   
-  items:
-    - name: 
-      level: 0
 
   groups:
     - name: Visualization
-      item:
-        - SAS Visual Analytics
-        - Apache Superset
-        - Microsoft Power BI
-        - Tableau
+      items:
+        - name: SAS Visual Analytics
+          level: 0
+        - name: Apache Superset
+          level: 0
+        - name: Microsoft Power BI
+          level: 0
+        - name: Tableau
+          level: 0
   
     - name: Programming
-      item:
-        - Python
-        - SAS
-        - SQL
-        - JavaScript
-        - Bash
+      items:
+        - name: Python
+          level: 0
+        - name: SAS
+          level: 0
+        - name: SQL
+          level: 0
+        - name: JavaScript
+          level: 0
+        - name: Bash
+          level: 0
 
     - name: Data Preparation Tools
-      item:
-        - SAS DI 
-        - SAS Enterprise Guide
-        - Airflow
+      items:
+        - name: SAS DI 
+          level: 0
+        - name: SAS Enterprise Guide
+          level: 0
+        - name: Airflow
+          level: 0
 
     - name: DB
-      item:
-        - T-SQL (SQL Server)
-        - Oracle DB 
-        - PostgreSQL
-        - SQLite
+      items:
+        - name: T-SQL (SQL Server)
+          level: 0
+        - name: Oracle DB 
+          level: 0
+        - name: PostgreSQL
+          level: 0
+        - name: SQLite
+          level: 0
 
     - name: Knowledge Management
-      item:
-        - Confluence
-        - Notion
-        - Obsidian
-        - Logseq
+      items:
+        - name: Confluence
+          level: 0
+        - name: Notion
+          level: 0
+        - name: Obsidian
+          level: 0
+        - name: Logseq
+          level: 0
 
 education:
   show: true

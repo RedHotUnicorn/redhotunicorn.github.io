@@ -61,12 +61,14 @@
       .section-content {
 
         .groups {
+          flex-direction: row;
+          
           .items {
             flex-direction: row;
             margin: auto;
             width: fit-content;
           }
-          flex-direction: row;
+          
         }
       }
     }
