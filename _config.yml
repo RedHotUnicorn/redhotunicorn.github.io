@@ -40,4 +40,5 @@ site_footer: true           # show site footer, 'true' or 'false'
 
 
 paginate: 6
-paginate_path: /page:num/
+# paginate_path: /page:num/
+paginate_path: "/projects.html/:num/"
