@@ -192,6 +192,8 @@ skill:
           level: 2
         - name: Shell / Bash
           level: 2
+        - name: R
+          level: 1
 
     - name: ETL Tools
       items:
