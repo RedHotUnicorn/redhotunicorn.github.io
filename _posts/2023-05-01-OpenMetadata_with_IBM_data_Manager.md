@@ -12,3 +12,10 @@ Long content here
 and here
 ...
 [/expand]
+
+### test2
+<details>
+	<summary>Click to expand</summary>
+	Long content here
+	and here
+</details>
