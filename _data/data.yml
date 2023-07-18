@@ -8,7 +8,7 @@ basic:
 contact:
   # meta
   location: Frankfurt-am-Main, Germany  # location
-  email: sanekzhitnik@gmail.com                 # email address
+  email: azhitnik.work@gmail.com                 # email address
   phone:  # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website: redhotunicorn.github.io     # site URL without schema, like example.com, will automatically prepand "https://"
 
