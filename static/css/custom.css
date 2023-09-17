@@ -1,0 +1,62 @@
+/*.image-resize:has(.right) {float: right; border-radius: 20%;}*/
+/*.asset-container:has(.right) {float: right; border-radius: 20%;}*/
+
+a.tag { display: none !important }
+
+/*.image-resize:has(.right) {float: right;  border-radius: 50% !important; min-height:100% ; max-height: 100%}*/
+.image-resize:has(.right) {float: right;}
+.asset-container:has(.right) {float: right;}
+
+
+/*it's id block of "content" on my cv page */
+.ls-block[blockid="65058c11-8a91-442c-b685-1f20ad6bf9f8"]>.block-children-container.flex>.block-children.w-full {
+    column-count: 2 !important;
+}
+
+
+
+
+/*tabler support*/
+@supports (font-variation-settings: normal) {
+    html {
+      font-family: 'Inter var', 'tabler-icons', sans-serif  !important;
+    }
+}
+html:not(.is-native-android) {
+    font-family: var(--ls-font-family),'tabler-icons',sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;
+}
+
+.ra{
+    float: right;
+}
+
+
+.image-resize:has(.shadow) {
+  box-shadow: 0px 10px 20px #ccc;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/*div.block-properties.page-properties {
+    display: none;
+}*/
+
+
+/*th {
+  word-break: keep-all;
+}*/
+
+td {
+    white-space: pre-wrap !important;
+}
+
+/*.table-wrapper {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+table td {
+  min-width:100px;
+  word-wrap:break-word;
+}*/
