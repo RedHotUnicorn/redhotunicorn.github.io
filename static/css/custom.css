@@ -43,20 +43,8 @@ html:not(.is-native-android) {
 }*/
 
 
-/*th {
-  word-break: keep-all;
-}*/
-
+/*Tables with multiline*/
 td {
     white-space: pre-wrap !important;
 }
 
-/*.table-wrapper {
-  width: 100% !important;
-  max-width: 100% !important;
-}
-
-table td {
-  min-width:100px;
-  word-wrap:break-word;
-}*/
